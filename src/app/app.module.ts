@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { InputsModule } from '@progress/kendo-angular-inputs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ButtonsModule } from '@progress/kendo-angular-buttons';
+
 
 
 
@@ -14,7 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     InputsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ButtonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

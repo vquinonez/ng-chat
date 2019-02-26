@@ -1,5 +1,34 @@
 # NgChat
 
+## Project Description
+
+### Description
+
+This project will emulate a chat. You can add new members to the chat, and save the conversation.
+
+## Objective
+
+You need to create all the components using Kendo UI and expecting to reuse the components as much as posible:
+
+- You won't use the Kendo's chat component, you need to create a new one using the kendo forms components.
+- The chat window will contain a text input, a send button and a chat viewer.
+- It should create a new chat window for all the users that are on the chat.
+- You need to add a new user modal that will ask for a name, and a color in order to add the new chat.
+- Everyone a user send a message it will appear at other windows with the color selected.
+- Every message you send will appear on grey color.
+- A use can close the window and a message will throw to the other users.
+- When a user send one of the following words, it will be replace for `*`
+    - vue
+    - react
+    - angularjs
+
+## Optional
+
+- You need to add a save button that will save the conversation history and the users involved on a API.
+- When you start the application you will pull the values from a API and restored the session.
+
+--
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 
 ## Development server

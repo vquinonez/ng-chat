@@ -27,7 +27,7 @@ You need to create all the components using Kendo UI and expecting to reuse the 
 - You need to add a save button that will save the conversation history and the users involved on a API.
 - When you start the application you will pull the values from a API and restored the session.
 
---
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 
